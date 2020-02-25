@@ -27,3 +27,10 @@ function appendKitten(name) {
   return newArray;
   return kittens;
 }
+
+function prependKitten(name) {
+  var newArray = kittens.slice(0);
+  newArray.unshift(name);
+  return newArray;
+  return kittens;
+}
