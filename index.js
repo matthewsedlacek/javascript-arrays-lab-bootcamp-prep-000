@@ -41,3 +41,10 @@ function removeLastKitten (name) {
   return newArray;
   return kittens;
 }
+
+function removeFirstKitten(name) {
+  var newArray = kittens.slice();
+  newArray.shift();
+  return newArray;
+  return kittens;
+}
